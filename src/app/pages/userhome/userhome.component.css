@@ -1,0 +1,41 @@
+.button{
+ 
+    width: 300px;
+    height: 60px;
+    background: #9CC9D2;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: #9CC9D2;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    }
+
+    .padding{
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .margen{
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .text{
+        text-align: center;
+        font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #424242;
+
+    }
+    .color{
+        color:#9CC9D2;
+    }

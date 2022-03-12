@@ -1,0 +1,25 @@
+
+    .padding{
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .margen{
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .text{
+        text-align: center;
+        font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #424242;
+
+    }
+    .color{
+        color:#9CC9D2;
+    }

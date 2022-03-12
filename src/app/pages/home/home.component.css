@@ -1,0 +1,73 @@
+body {
+  
+    background-image: url("../../../assets/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+
+  }
+  .padre {
+    width: 450px;
+    height: auto;
+    padding-left: 60px;
+    display: table;
+  }
+  .hijo {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 99px;
+  color: #424242;
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .divbutton{
+    padding-left: 60px;
+    padding-top: 45px;
+  }
+  .button{
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  background: #9CC9D2;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: #9CC9D2;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  }
+  .divtext {
+    width: 450px;
+    height: auto;
+    padding-left: 60px;
+    padding-top: 15px;
+    display: table;
+  }
+  .posicion{
+  position: absolute;
+  left: 733px;
+  top: 289px;
+  }
+  .tamaño{
+    width: 610px;
+    height: 231px;
+  
+    }
+  .hijotext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21px;
+    color: #484848;
+  display: table-cell;
+  vertical-align: middle;
+  }
