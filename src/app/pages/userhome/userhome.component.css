@@ -1,41 +1,84 @@
-.button{
- 
-    width: 300px;
-    height: 60px;
-    background: #9CC9D2;
-    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    border: #9CC9D2;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 42px;
-    color: #FFFFFF;
-    }
+.button {
+  width: 60%;
+  height: 90%;
+  background: #9cc9d2;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: #9cc9d2;
 
-    .padding{
-        text-align: center;
-        padding-top: 5px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .margen{
-        padding-top: 5px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .text{
-        text-align: center;
-        font-family: 'Righteous';
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.divbutton {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.padding {
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.margen {
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+}
+.text {
+  text-align: center;
+  font-family: "Righteous";
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 50px;
   color: #424242;
+}
+.color {
+  height: 1px;
+  background-color: #9cc9d2;
+  color: #9cc9d2;
+  border-color: #9cc9d2;
+}
 
-    }
-    .color{
-        color:#9CC9D2;
-    }
+
+
+.tz-gallery {
+    padding-left: 80px;
+}
+
+.tz-gallery .lightbox img {
+    width: 40%;
+    height: 70%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+

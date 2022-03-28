@@ -1,3 +1,4 @@
+@media (min-width:768px){
 body {
   
     background-image: url("../../../assets/fondo.png");
@@ -8,9 +9,10 @@ body {
 
   }
   .padre {
-    width: 450px;
+    width: auto;
     height: auto;
-    padding-left: 60px;
+    padding-left: 4%;
+    padding-top:5%;
     display: table;
   }
   .hijo {
@@ -64,10 +66,86 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    text-align: justify;
+    text-align: justify; 
     font-size: 16px;
     line-height: 21px;
     color: #484848;
   display: table-cell;
   vertical-align: middle;
   }
+}
+@media (max-width:720px){
+  body {
+  
+    background-image: url("../../../assets/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+
+  }
+  .padre {
+    width: auto;
+    height: auto;
+    padding-left: 60px;
+    display: table;
+  }
+  .hijo {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 99px;
+  color: #424242;
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .divbutton{
+    padding-left: 60px;
+    padding-top: 45px;
+  }
+  .button{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background: #9CC9D2;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: #9CC9D2;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 10;
+  font-size: 12px;
+  line-height: 42px;
+  color: #FFFFFF;
+  }
+  .divtext {
+    width: 450px;
+    height: auto;
+    padding-left: 60px;
+    padding-top: 15px;
+    display: table;
+  }
+  .posicion{
+  position: absolute;
+  left: 100px;
+  top: 91px;
+  }
+  .tamaño{
+    width: 100px;
+    height: 91px;
+  
+    }
+  .hijotext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 32;
+    text-align: justify; 
+    font-size: 16px;
+    line-height: 21px;
+    color: #484848;
+  display: table-cell;
+  vertical-align: middle;
+  }
+}
+

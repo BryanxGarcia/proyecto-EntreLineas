@@ -1,49 +1,61 @@
 <body>
-<app-header></app-header>
+    <app-headerclaro></app-headerclaro>
     <div class="login-wrap">
         <div class="login-html">
-            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Inicia sesión</label>
-            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Registrarse</label>
-            <div class="login-form">
-                <div class="sign-in-htm" >
-                    <form action="/userhome">
-                    <div class="group">
-                        <label for="user" class="label">Usuario:</label>
-                        <input id="user" type="text" class="input">
-                    </div>
-                    <div class="group">
-                        <label for="pass" class="label">Contraseña:</label>
-                        <input id="pass" type="password" class="input" data-type="password">
-                    </div>
+            
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+            <label for="tab-1" class="tab">Inicia sesión</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up">
+            <label for="tab-2" class="tab">Registrarse</label>
 
-                    <div class="group">
-                        <input type="submit" class="button" value="Iniciar sesión">
-                    </div>
-                </form>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <form action="/userhome">
+
+                        <div class="group">
+                            <label for="user" class="label">Usuario:</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+
+                        <div class="group">
+                            <label for="pass" class="label">Contraseña:</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+
+                        <div class="group">
+                            <div class="centro">
+                                <input type="submit" class="button" value="Iniciar sesión">
+                            </div>
+
+                        </div>
+                    </form>
                 </div>
+
+
                 <div class="sign-up-htm" action="/searchresult">
                     <form action="/login">
-                    <div class="group">
-                        <label for="email" class="label">Correo Electronico:</label>
-                        <input id="email" type="text" class="input">
-                    </div>
-                    <div class="group">
-                        <label for="pass" class="label">Contraseña:</label>
-                        <input id="pass" type="password" class="input" data-type="password">
-                    </div>
-                    <div class="group">
-                        <label for="user" class="label">Usuario:</label>
-                        <input id="user" type="text" class="input">
-                    </div>
-                    <div class="posicion">
-                    <div class="group"> 
-                        <input  type="submit" class="button" value="Registrarme">
-                    </div>
-
-                    </div>
-                </form>
-                    </div>
+                        <div class="group">
+                            <label for="email" class="label">Correo Electronico:</label>
+                            <input id="email" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Contraseña:</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="user" class="label">Usuario:</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="posicion">
+                            <div class="group">
+                                <div class="centro">
+                                    <input type="submit" class="button" value="Registrarme">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
 </body>
