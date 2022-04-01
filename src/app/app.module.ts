@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import{AppRoutingModule} from './app-routing.module';
-
+import{ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComponenteModule } from './components/components.module';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,10 @@ import { ComponenteModule } from './components/components.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule,
-    ComponenteModule
+    ComponenteModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

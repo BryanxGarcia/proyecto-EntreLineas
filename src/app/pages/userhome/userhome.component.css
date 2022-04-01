@@ -30,7 +30,7 @@
   padding-top: 5px;
   padding-left: 80px;
   padding-right: 80px;
-
+  padding-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -57,13 +57,13 @@
 
 
 .tz-gallery {
-    padding-left: 80px;
+    padding-left: 90px;
 }
 
 .tz-gallery .lightbox img {
-    width: 40%;
-    height: 70%;
-    margin-bottom: 30px;
+    width: 60%;
+    height: 90%;
+    margin-bottom: 20px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }

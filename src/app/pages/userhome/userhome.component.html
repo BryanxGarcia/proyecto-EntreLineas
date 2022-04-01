@@ -2,69 +2,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    
 </head>
+
 <body>
-<app-headerusuario></app-headerusuario>
+    <app-headerusuario></app-headerusuario>
 
-<div class="padding">
-<h1 class="text">¡Bienvenido usuario!</h1>
-<hr class="color">
-<div class="divbutton">
-<form action="/library">
-    <button class="button">Ver todos los libros disponibles</button>
-</form>
-</div>
-<hr class="color">
-</div>
+    <div class="padding">
+        <h1 class="text">¡Bienvenido usuario!</h1>
+        <hr class="color">
+        <div class="divbutton">
+            <form action="/library">
+                <button class="button">Ver todos los libros disponibles</button>
+            </form>
+        </div>
+        <hr class="color">
+    </div>
+    <div class="margen">
+        Tu libreria:
+    </div>
 
-<div class="margen">
-    Tu libreria:
-</div>
-
-<!--  ========== Gallery Thumbnails ========== -->
+    <!--  ========== Gallery Thumbnails ========== -->
 
     <div class="tz-gallery">
 
         <div class="row">
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/park.jpg">
-                    <img src="../../../assets/libros.png" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/bridge.jpg">
-                    <img src="../../../assets/libros.png" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/tunnel.jpg">
-                    <img src="../../../assets/libros.png" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/coast.jpg">
-                    <img src="../../../assets/libros.png" alt="Coast">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/rails.jpg">
-                    <img src="../../../assets/libros.png" alt="Rails">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/traffic.jpg">
-                    <img src="../../../assets/libros.png" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-8 col-md-4">
-                <a class="lightbox" href="../images/rocks.jpg">
-                    <img src="../../../assets/libros.png" alt="Rocks">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/benches.jpg">
-                    <img src="../../../assets/libros.png" alt="Benches">
+            <div class="col-sm-8 col-md-3" *ngFor="let item of [1,1,1,1,1,1,1,1]">
+                <a class="lightbox"
+                    href="https://drive.google.com/file/d/1eBnoR9gyoFMDbXEi5Wdjp4fap2QxIFlW/view?usp=sharing">
+                    <img src="../../../assets/libro.jpg" alt="Park">
                 </a>
             </div>
         </div>
@@ -74,5 +39,5 @@
 
 
 
-<!--  ========== End Gallery Row ========== -->
+    <!--  ========== End Gallery Row ========== -->
 </body>
